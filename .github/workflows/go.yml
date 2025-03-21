@@ -10,7 +10,7 @@ on:
       - go/**
 jobs:
   push:
-    name: "yolks:go_${{ matrix.tag }}"
+    name: "images:go_${{ matrix.tag }}"
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -32,8 +32,8 @@ jobs:
       - uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: argon-foss
+          password: ${{ secrets.PAT }}
       - uses: docker/build-push-action@v4
         with:
           context: ./go
