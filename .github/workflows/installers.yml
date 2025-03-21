@@ -61,8 +61,8 @@ jobs:
       - uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: etherxr
+          password: ${{ secrets.PAT }}
       - uses: docker/build-push-action@v4
         with:
           context: ./installers
