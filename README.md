@@ -46,6 +46,8 @@
     * `ghcr.io/argon-foss/images:java_19j9`
   * [`java21`](https://github.com/argon-foss/images/tree/master/java/21)
     * `ghcr.io/argon-foss/images:java_21`
+  * [`java23`](https://github.com/argon-foss/images/tree/master/java/23)
+    * `ghcr.io/argon-foss/images:java_23`
 * [`nodejs`](https://github.com/argon-foss/images/tree/master/nodejs)
   * [`node12`](https://github.com/argon-foss/images/tree/master/nodejs/12)
     * `ghcr.io/argon-foss/images:nodejs_12`
