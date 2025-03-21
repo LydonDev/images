@@ -42,7 +42,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/argon-foss/installers:${{ matrix.tag }}
+            ghcr.io/argon-foss/images:${{ matrix.tag }}
 
   pushAmd:
     name: "images:installers_amd:${{ matrix.tag }}"
