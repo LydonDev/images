@@ -10,7 +10,7 @@ on:
       - games/**
 jobs:
   push:
-    name: "games:${{ matrix.game }}"
+    name: "images:${{ matrix.game }}"
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -26,8 +26,8 @@ jobs:
       - uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: argon-foss
+          password: ${{ secrets.PAT }}
       - uses: docker/build-push-action@v4
         with:
           context: ./games/${{ matrix.game }}
@@ -35,4 +35,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/argon-foss/games:${{ matrix.game }}
+            ghcr.io/argon-foss/images:${{ matrix.game }}
