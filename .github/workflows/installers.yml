@@ -70,4 +70,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/argon-foss/installers:${{ matrix.tag }}
+            ghcr.io/argon-foss/images:${{ matrix.tag }}
