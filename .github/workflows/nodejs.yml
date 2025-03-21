@@ -35,7 +35,7 @@ jobs:
       - uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: argon-foss
+          username: etherxr
           password: ${{ secrets.PAT }}
       - uses: docker/build-push-action@v4
         with:
