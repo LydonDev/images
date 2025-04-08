@@ -76,7 +76,7 @@
 ### Installation Images
 
 * [`alpine-install`](https://github.com/argon-foss/images/tree/master/installers/alpine)
-  * `ghcr.io/pterodactyl/installers:alpine`
+  * `ghcr.io/argon-foss/images:alpine`
 
 * [`debian-install`](https://github.com/argon-foss/images/tree/master/installers/debian)
-  * `ghcr.io/pterodactyl/installers:debian`
+  * `ghcr.io/argon-foss/images:debian`
