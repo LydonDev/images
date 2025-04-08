@@ -61,8 +61,10 @@
     * `ghcr.io/argon-foss/images:nodejs_17`
   * [`node18`](https://github.com/argon-foss/images/tree/master/nodejs/18)
     * `ghcr.io/argon-foss/images:nodejs_18`
-  * [`node20`](https://github.com/argon-foss/images/tree/master/nodejs/18)
+  * [`node20`](https://github.com/argon-foss/images/tree/master/nodejs/20)
     * `ghcr.io/argon-foss/images:nodejs_20`
+  * [`node22`](https://github.com/argon-foss/images/tree/master/nodejs/22)
+    * `ghcr.io/argon-foss/images:nodejs_22`
 * [`python`](https://github.com/argon-foss/images/tree/master/python)
   * [`python3.7`](https://github.com/argon-foss/images/tree/master/python/3.7)
     * `ghcr.io/argon-foss/images:python_3.7`
